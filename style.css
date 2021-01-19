@@ -3,8 +3,8 @@
 }
 
 body {
-  background: #92bde7;
-  color: #485e74;
+  background: #e2a3f5;
+  color: #31404e;
   line-height: 1.6;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 1em;
@@ -30,14 +30,14 @@ ul {
 }
 
 .wrapper {
-  box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+  box-shadow: 0 0 20px 0 rgba(110, 81, 108, 0.7);
 }
 
 .wrapper > * {
   padding: 1em;
 }
 .company-info {
-  background: #c9e6ff;
+  background: #f5ccfa;
 }
 
 .company-info h3,
@@ -74,18 +74,20 @@ ul {
 .contact form textarea {
   width: 100%;
   padding: 1em;
-  border: 1px solid #c9e6ff;
+  border: 1px solid #f5ccfa;
 }
 
 .contact form button {
-  background: #c9e6ff;
+  background: #f5ccfa;
   border: 0;
   text-transform: uppercase;
+
+  font-weight: 600;
 }
 
 .contact form button:hover,
 .contact form button:focus {
-  background: #92bde7;
+  background: #e2a3f5;
   outline: 0;
   transition: background 1.5s ease-out;
 }
